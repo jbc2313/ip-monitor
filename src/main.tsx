@@ -5,6 +5,7 @@ import Root from "./routes/root";
 import ViteDefault from "./routes/viteDefault";
 import CameraOne from "./routes/cameraOne";
 import CameraTwo from "./routes/cameraTwo";
+import CameraThree from "./routes/cameraThree";
 import ErrorPage from "./routes/errorPage";
 import "./style.css";
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "cameratwo",
                 element: <CameraTwo />,
+            },
+            {
+                path: "camerathree",
+                element: <CameraThree />,
             }
         ]
     },
