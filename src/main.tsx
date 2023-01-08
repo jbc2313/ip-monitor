@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 import ViteDefault from "./routes/viteDefault";
 import CameraOne from "./routes/cameraOne";
+import CameraTwo from "./routes/cameraTwo";
 import ErrorPage from "./routes/errorPage";
 import "./style.css";
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "cameraone",
                 element: <CameraOne />,
+            },
+            {
+                path: "cameratwo",
+                element: <CameraTwo />,
             }
         ]
     },
